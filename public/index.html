@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to Firebase Hosting</title>
+    <link rel="stylesheet" href="css/style.css" media="screen">
+  </head>
+
+  <body id="body" class="inactive">
+    <div id="auth_splash">
+      <form>
+        <center>
+          <h3>Sign up</h3>
+        </center>
+        <label for="email">Email</label>
+        <input type="email" id="email">
+        <label for="password">Password</label>
+        <input type="password" id="password">
+        <button onclick="signup(); return false;">sign up</button>
+      </form>
+      <br>
+      <form>
+        <center>
+          <h3>login</h3>
+        </center>
+        <label for="login_email">Email</label>
+        <input type="email" id="login_email">
+        <label for="login_password">Password</label>
+        <input type="password" id="login_password">
+        <button onclick="login(); return false;">login</button>
+        <br><br>
+        <center>
+          <button type="button" onclick="reset_pass()">reset password</button>
+        </center>
+      </form>
+    </div>
+    <div id="message">
+      <h1>Welcome to Firebase Hosting</h1>
+      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
+      <ul>
+        <li><a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a></li>
+      </ul>
+      <br><br>
+      <center>
+        <button onclick="logout();">Logout</button>
+      </center>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/3.4.1/firebase.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+
+</html>

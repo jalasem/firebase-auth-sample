@@ -1,0 +1,10 @@
+{
+  "appId": "anuoluwapo",
+  "apiKey": "aa3c862065b38bbb2811fccfdf862eb314f6ba68cc64bd3266783636acb5755c",
+  "public": "./public",
+  "ignore": [
+    "stamplay.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
